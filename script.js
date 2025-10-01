@@ -24,7 +24,7 @@ const CONFIG = {
   // Opsional: mapping thumbnail gambar (jpg/png) untuk tiap PDF
   certificateThumbnails: {
     "CERTIFICATE PROGRAMMING WITH JAVA.pdf": "java.jpg",
-    "CERTIFICATE PROGRAMMING WITH C.pdf": "c.jpg",
+    "CERTIFICATE PROGRAMMING WITH C.pdf": "C.jpg",
     "CERTIFICATE PROJECT MANAGEMENT.pdf": "m.jpg",
   },
 };
@@ -364,3 +364,4 @@ if (mailLink) mailLink.href = CONFIG.emailAddress ? `mailto:${CONFIG.emailAddres
     el.addEventListener("mouseleave", reset);
   });
 })();
+
